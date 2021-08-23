@@ -1,0 +1,25 @@
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+a {
+    color: #ad2041;
+    text-decoration: none;
+    position: relative;
+}
+
+a::before {
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background: #ad2041;
+    transition: ease width 0.8s;
+    content:"";
+    position:absolute;
+}
+
+a:hover::before{
+    width: 100%;
+}
