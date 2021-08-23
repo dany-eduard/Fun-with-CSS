@@ -1,12 +1,14 @@
 ul {
     margin: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 900px;
 }
 
 li {
     font-weight: bolder;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     border-radius: 10px;
     list-style: none;
     flex: 1;
@@ -17,6 +19,7 @@ li {
     padding-top: 1.2rem;
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid #48474b40;
 }
 
 .icon {
@@ -27,11 +30,11 @@ li {
 }
 
 .i-html {
-    background-position: 0 0;
+    background-position: 4px 0;
 }
 
 .i-css {
-    background-position: -288px 0;
+    background-position: -286px 0;
 }
 
 .i-js {
